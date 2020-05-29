@@ -8,11 +8,16 @@ function ViewSignaling (signaling, rootAdd){
 ViewSignaling.prototype = Object.create(Service.prototype);
 ViewSignaling.prototype.constructor = ViewSignaling;
 
+//var back = document.getElementById("back");
+//body.style.backgroundImage = "url(./image/CPXdBM4)";
+
 ViewSignaling.prototype.stateChange = function(){
     if(this._signaling._state){
         this._state.innerText = "ВКЛЮЧЕНА";
+        //body.style.backgroundImage = "url(./image/1.jpg)";
     } else{
         this._state.innerText = "ВЫКЛЮЧЕНА"; 
+        
     };
 };
 

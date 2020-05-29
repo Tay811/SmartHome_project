@@ -4,12 +4,14 @@
 }
 
 body{
-    background-image: url("./image/CPXdBM4.png ");
+    background-image: url("./image/CPXdBM4.png");
     width: 100%;
     margin: 0;
     height: 100vh;
     background-size: cover;
 }
+
+
 
 .main{
     margin-top: 20px;
@@ -24,7 +26,7 @@ body{
 
 .container{
     background-color: rgba(127, 255, 212, 0.473);
-    height: 650px;
+    height: 700px;
     width: 1000px;
     border-radius: 10px;
     margin-left: auto;
@@ -32,7 +34,7 @@ body{
     margin-top: 50px;
 }
 
- #add, #camAdd, #sigAdd {
+ #add, #camAdd, #sigAdd{
     height: 50px;
     width: 330px; 
     padding: 8px;
@@ -45,6 +47,18 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 
+#deleteCond, #deleteCam, #deleteSig {
+    height: 50px;
+    width: 330px; 
+    padding: 8px;
+    cursor: pointer;
+    border: solid 1px #f2f2f2;
+    background-color: rgba(29, 141, 106, 0.541);
+    border-radius: 10px;
+    font-size: 16px;
+    flex-direction: row;
+    font-family: 'Comfortaa', cursive;
+}
 
 
 .main h1{
